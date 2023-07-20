@@ -111,6 +111,17 @@ nav li a {
 .funny-title{
     color: rgb(245, 52, 210);
 }
+/* Card ar kag */
+.card{
+    display: flex;
+    padding: 30px 100px;
+    gap: 15px;
+    border-radius: 16px;
+    
+}
+.card-descripction{
+    text-align: center;
+}
 
 
 
@@ -197,3 +208,19 @@ nav li a {
     .online-describtion{
         font-size: 4px;
     }
+
+    /* Card ar kag */
+.card{
+    flex-direction: column;
+    padding: 0px;
+    margin-top: 30px;
+
+}
+.card-image{
+    width: 220px;
+    height: 250px;
+}
+.card-descripction{
+    font-size: 10px;
+    text-align: justify;
+}

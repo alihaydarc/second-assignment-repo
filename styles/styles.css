@@ -1,0 +1,159 @@
+/* Work sans fonts form by google */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header ar kag */
+header {
+    padding: 5px 120px;
+    width: 1420px;
+    margin-top: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(26, 95, 155);
+}
+
+.follow {
+    background-color: rgb(234, 189, 168);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.logo {
+    height: 40px;
+    width: 80px;
+    margin-left: 45px;
+}
+
+.g {
+    color: rgb(242, 26, 141);
+}
+
+.gamer {
+    font-size: 22px;
+    margin-right: 700px;
+}
+
+/* banner section ar kag */
+.banner {
+    display: flex;
+    background-color: antiquewhite;
+    width: 1400px;
+    padding: 5px 150px;
+    gap: 480px;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+.goat-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.goat-headline {
+    font-size: 95px;
+    font-weight: 800;
+    color: rgb(242, 26, 141);
+    margin: 20px;
+}
+
+.goat-no {
+    font-size: 20px;
+    color: #534C64;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(242, 26, 141);
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* responsive mobile device media queries */
+@media screen and (max-width:576px) {
+    header {
+        width: 155px;
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .logo {
+        margin-left: 50px;
+        align-items: center;
+    }
+    .gamer {
+        margin-left: 50px;
+    }
+/* banner part */
+    .goat {
+        text-align: center;
+    }
+    .goat-headline{
+        font-size: 30px;
+        align-items: center;
+    }
+    .goat-title{
+        font-size: 20px;
+        padding-left: 0px;
+        align-items: center;  
+    }
+    .goat-no{
+        font-size: 10px; 
+        padding-left: 0px;
+    }
+    .banner {
+        padding: 5px;
+        flex-direction: column;
+        width: 220px;
+        height: 230px;
+        gap: 40px;
+    }
+    .btn{
+    padding: 2px;
+    font-size: 16px
+    }
+    .banner-image {
+        margin-top: 5px;
+    }
+
+
+

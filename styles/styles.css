@@ -96,6 +96,26 @@ nav li a {
     text-decoration: none;
 }
 
+/* main part ar kag */
+
+/* online games title */
+.online-title {
+    text-align: center;
+    margin-top: 50px;
+}
+.online-headline {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.funny-title{
+    color: rgb(245, 52, 210);
+}
+
+
+
+
+
 
 /* responsive mobile device media queries */
 @media screen and (max-width:576px) {
@@ -120,26 +140,32 @@ nav li a {
         margin-left: 50px;
         align-items: center;
     }
+
     .gamer {
         margin-left: 50px;
     }
-/* banner part */
+
+    /* banner part */
     .goat {
         text-align: center;
     }
-    .goat-headline{
+
+    .goat-headline {
         font-size: 30px;
         align-items: center;
     }
-    .goat-title{
+
+    .goat-title {
         font-size: 20px;
         padding-left: 0px;
-        align-items: center;  
+        align-items: center;
     }
-    .goat-no{
-        font-size: 10px; 
+
+    .goat-no {
+        font-size: 10px;
         padding-left: 0px;
     }
+
     .banner {
         padding: 5px;
         flex-direction: column;
@@ -147,13 +173,27 @@ nav li a {
         height: 230px;
         gap: 40px;
     }
-    .btn{
-    padding: 2px;
-    font-size: 16px
+
+    .btn {
+        padding: 2px;
+        font-size: 16px
     }
+
     .banner-image {
         margin-top: 5px;
     }
 
-
-
+    /* online-title ar kag */
+    .online-title{
+        margin-top: 280px;
+        width: 200px;
+       
+    }
+    .online-headline {
+        font-size: 10px;
+        
+        margin-bottom: 2px;
+    }
+    .online-describtion{
+        font-size: 4px;
+    }

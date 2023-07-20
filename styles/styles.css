@@ -155,6 +155,30 @@ margin-top: 0px;
     margin-right: 280px;
 }
 
+/* small ment part */
+.small-menu-1{
+    display: flex;
+    margin-top: 150px;
+    padding: 20px 320px;
+    gap: 80px;
+    width: 1200px;
+}
+.small-menu-2{
+    display: flex;
+    padding: 20px 400px;
+    gap: 120px;
+    width: 1200px; 
+}
+.menu-1{
+    display: flex;
+    gap: 10px;
+}
+.menu-describ{
+    
+
+font-weight: 1000px;
+}
+
 
 
 
